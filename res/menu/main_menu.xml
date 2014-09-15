@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/edit_btn_bg"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="添加">
+    </item>
+
+</menu>

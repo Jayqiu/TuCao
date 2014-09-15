@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.threehalf.tucao.view.CircleImageView
+            android:id="@+id/iv_itme_hottest_avater"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@color/app_main_color" >
+        </com.threehalf.tucao.view.CircleImageView>
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="@dimen/margin_five"
+            android:text="邱杰"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_eighteen" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_item_tucaocontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="@dimen/margin_ten"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:text="儿子今天做先天性心脏病手术！求各位大神保佑！大神给过吧"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_eighteen" />
+
+    <ImageView
+        android:id="@+id/tv_item_tucaoimg"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center|left"
+        android:text="儿子今天做先天性心脏病手术！求各位大神保佑！大神给过吧"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_eighteen" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_five"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_item_hotttest_commentnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="320吐槽" />
+
+        <TextView
+            android:id="@+id/tv_itme_hottest_praise_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="40赞" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_five"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_itme_hottest_praise_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/skin_toolbar_icon_praise" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/iv_itme_hottest_comment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/skin_toolbar_icon_comment" />
+
+        <ImageView
+            android:id="@+id/iv_itme_hottest_share_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/skin_toolbar_icon_share" />
+    </RelativeLayout>
+
+</LinearLayout>

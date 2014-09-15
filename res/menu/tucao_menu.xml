@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_tucao"
+        android:orderInCategory="1"
+        android:actionLayout="@layout/action_bar_menu_tucao"
+        android:showAsAction="ifRoom|withText">
+    </item>
+
+</menu>
